@@ -1,0 +1,87 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Iphone",
+      "price": 15000,
+      "quantity": 2,
+      "imgUrl": "assets/images/phone.jpeg",
+      "catId": 1,
+      "quantityBuy": 0
+    },
+    {
+      "id": "2",
+      "name": "Oppo",
+      "price": 60000000,
+      "quantity": 2,
+      "imgUrl": "assets/images/phone.jpeg",
+      "catId": 1,
+      "quantityBuy": 0
+    },
+    {
+      "id": "3",
+      "name": "Honor",
+      "price": 3500,
+      "quantity": 1,
+      "imgUrl": "assets/images/phone.jpeg",
+      "catId": 1,
+      "quantityBuy": 0
+    },
+    {
+      "id": "4",
+      "name": "Hp Laptop",
+      "price": 40000,
+      "quantity": 4,
+      "imgUrl": "assets/images/lab.jpeg",
+      "catId": 2,
+      "quantityBuy": 0
+    },
+    {
+      "id": "5",
+      "name": "lenovo lap",
+      "price": 50000,
+      "quantity": 2,
+      "imgUrl": "assets/images/lab.jpeg",
+      "catId": 2,
+      "quantityBuy": 0
+    },
+    {
+      "id": "6",
+      "name": "samsung lap",
+      "price": 7000,
+      "quantity": 0,
+      "imgUrl": "assets/images/lab.jpeg",
+      "catId": 2,
+      "quantityBuy": 0
+    },
+    {
+      "id": "49e6"
+    },
+    {
+      "id": "2cf8",
+      "name": "new phone",
+      "price": 5000,
+      "quantity": 5,
+      "imgUrl": "C:\\fakepath\\phone.jpeg",
+      "catId": "1"
+    },
+    {
+      "id": "34d9",
+      "name": "new phone2",
+      "price": 222,
+      "quantity": 2,
+      "imgUrl": "C:\\fakepath\\lab.jpeg",
+      "catId": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Mobiles"
+    },
+    {
+      "id": "2",
+      "name": "Laptops"
+    }
+  ]
+}

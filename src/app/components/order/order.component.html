@@ -1,0 +1,26 @@
+<div class="mb-3 w-50 mx-auto">
+    <label for="" class="form-label">Categories</label>
+    <select class="form-select form-select-lg" name="" id="" [(ngModel)]="selectedCatId">
+        <option value="0" >--- chose category plz ---</option>
+        <option *ngFor="let cat of categories" value="{{cat.id}}">{{cat.name}}</option>
+    </select>
+</div>
+<app-products [recievedCatId]="selectedCatId" (onPrdBuy)="change($event)"></app-products>
+
+<div class="container">
+<table class="table table-striped" >
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of ReceivedProducts">
+          <td>{{ product.name }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{product.quantityBuy}}</td>
+        </tr>
+      </tbody>
+</table></div>
